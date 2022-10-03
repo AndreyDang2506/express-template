@@ -5,7 +5,7 @@ const morgan = require('morgan')
 const compression = require('compression')
 
 //init dbs 
-// require('./v1/databases/init.mongodb')
+require('./v1/databases/init.mongodb')
 // require('./v1/databases/init.redis')
 
 //user middleware
